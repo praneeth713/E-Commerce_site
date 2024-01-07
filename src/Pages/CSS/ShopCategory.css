@@ -1,4 +1,4 @@
-.shopcategory-banner{
+.shopCategory-banner{
     display: block;
     margin: 30px auto;
     width: 82%;
@@ -12,7 +12,7 @@
 .shopcategory-sort{
     padding: 10px 20px;
     border-radius: 40px;
-    border: 1px solid #888;
+    border: 1px solid #888; 
 }
 .shopcategory-indexsort p span{
     font-weight: 600;
@@ -22,6 +22,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 80px;
+    gap: 30px;
+    column-gap: 20px;
 }
 .shopcategory-loadmore{
     display: flex;
